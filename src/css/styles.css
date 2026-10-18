@@ -8,3 +8,30 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
 }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 1128px;
+  gap: 24px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+
+  /* border: 1px solid #000; */
+}
+.gallery-item {
+}
+
+.gallery-link {
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
